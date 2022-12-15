@@ -1,0 +1,80 @@
+
+.books {
+    max-width: 1330px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.book__card {
+    max-width: 400px;
+    background-color: lightgrey;
+    border: black;
+    padding: 15px;
+}
+img {
+    width: 80%;
+    padding: 10%;
+}
+.add__button {
+    color: white;
+    background-color: rgb(5, 201, 93);
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+add__button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: #A7DBD8;
+    border-color:#09a9c9;
+    color:#000;
+    cursor: pointer;
+}
+.shopping__card {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+.table__caption {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+tr {
+    height: 45px;
+}
+tr:hover {
+    background-color: #D6EEEE;
+}
+.lastRaw {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.remove__button {
+margin: 10%;
+height: 80%;
+background-color: rgb(5, 201, 93);
+border-radius: 6px;
+color: white;
+cursor: pointer;
+}
+#total {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+}
+.table__total {
+    width: 70%;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+}
